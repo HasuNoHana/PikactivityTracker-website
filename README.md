@@ -1,11 +1,16 @@
-Uruchomienie projektu lokalnie:
-- zbudowanie projektu: npm install
-- uruchomienie testów: npm test
-- uruchomienie testów z pokryciem kodu: npm test -- --coverage --watchAll=false
-- uruchomienie projektu: npm start (projekt wstaje na porcie 3000)
+# PikactivityTracker-website
+PikactivityTracker-website is frontend part of an aplication that serves gathering statisics about your webside. To do so, webside must download library (https://github.com/HasuNoHana/PikactivityTracker-library) and use it to deliver events regarding that side. This is backend part (https://github.com/HasuNoHana/PikactivityTracker-server/blob/main/README.md).
 
-Uruchomienie projektu przy użyciu Dockera (wymagany zainstalowany Docker):
+Project was realized in cooperation with Marcin Bąk (https://www.linkedin.com/in/marcinbak/) who work as Vice President in FICC Post Execution Automation at Goldman Sachs.
 
-- zbudowanie obrazu: docker build -t <nazwa_stworzonego_obrazu> .
-- uruchomienie obrazu: docker run <nazwa_stworzonego_obrazu>
-- obraz uruchamia się domyślnie na porcie 3000, w celu zmienienia portu należy dodać w komendzie uruchmiającej dockera opcje -p<nowy_port>:3000
+If you want to run project locally you might find this instructions useful:
+- building a project: npm install
+- run tests: npm test
+- run tests with code coverage: npm test -- --coverage --watchAll=false
+- run project: npm start (project runs at port 3000)
+
+To run a projest on a Docker do this (requires installed Docker):
+
+- build image: docker build -t <image_name> .
+- run image: docker run <image_namef>
+- image runs at port 3000, if you want to change port please add this option -p<new_port>:3000
