@@ -14,3 +14,9 @@ To run a projest on a Docker do this (requires installed Docker):
 - build image: docker build -t <image_name> .
 - run image: docker run <image_namef>
 - image runs at port 3000, if you want to change port please add this option -p<new_port>:3000
+
+Authors:
+- Aleksandra Okrutny (https://github.com/aleokr)
+- Aniela Kosek (https://github.com/aksek)
+- Patryk Karbownik (https://github.com/p-karbownik)
+- Zuzanna Santorowska (https://github.com/HasuNoHana)
